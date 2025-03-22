@@ -1,0 +1,67 @@
+# .NET Core & ASP.NET Core
+
+## Geliştirici araçları ve IDE dosyaları
+.vscode/
+*.code-workspace
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.sw?
+
+## Derleme çıktıları
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.app
+*.ipa
+*.dmg
+*.log
+
+## Kullanıcı spesifik dosyalar
+*.user
+*.vsconfig
+
+## Paket bağımlılıkları
+packages/
+npm-debug.log
+yarn-error.log
+
+## Dotnet paketleri
+*.nupkg
+*.snupkg
+
+## Yayınlama ve dağıtım
+publish/
+dist/
+.nuget/
+
+## Docker ve konteynerizasyon
+Dockerfile
+*.dockerignore
+
+## Config ve geçici dosyalar
+appsettings*.json
+secrets.json
+.env
+
+## Rider / Resharper
+*.DotSettings.user
+.idea/
+
+## Log ve cache dosyaları
+logs/
+*.log
+
+## Test ve kapsama raporları
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+## Mac ve Linux sistem dosyaları
+.DS_Store
+Thumbs.db
